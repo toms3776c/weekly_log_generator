@@ -19,6 +19,11 @@ python generate_log.py --date 2025-02-24
 python generate_log.py --template custom_template.md --output-dir custom_logs
 ```
 
+4. 日付指定とサブフォルダへの出力:
+```bash
+python generate_log.py --date 2025-04-28 --output-dir 2025/04
+```
+
 ## オプション
 
 - `--date`: 対象週の日付（YYYY-MM-DD形式）。指定がない場合は今日の日付を使用。
